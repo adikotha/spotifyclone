@@ -1,0 +1,268 @@
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.lef {
+    display: flex;
+    flex-direction: column;
+    border: 20px;
+    border-left: 5px;
+    height: 98vh;
+    width: 25%;
+    margin-top: 4px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color:rgb(34, 31, 31);
+    padding: 15px;
+}
+
+.lefu {
+    background-color: rgb(34, 31, 31);
+    border: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-right: 0.5rem;
+    width: auto;
+}
+
+/* .lefm {
+    background-color: rgb(34, 31, 31);
+    border: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 79%;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+  } */
+.rig {
+    background-color: rgb(34, 31, 31);
+    margin: 5px;
+    border-radius: 5px;
+    height: auto;
+    width: 80%;
+    
+}
+
+.rigu {
+    background-color: rgba(34, 31, 31);
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.rigb {
+    background-color: rgba(182, 173, 173, 0.049);
+    border: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+}
+
+.lefu1 {
+    color: white;
+    font-size: 3rem;
+    margin-left: 1rem;
+    height: 100%;
+    width: 35%;
+}
+
+.lin {
+    padding-left: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-style: bold;
+    font-weight: 550;
+}
+
+.lin2 {
+    margin-left: 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ca1 {
+    border: 5px;
+    background-color: rgb(120, 111, 111);
+    height: 30rem;
+    width: 20%;
+    margin-left: 3rem;
+    margin-top: 1.65rem;
+    border-radius: 5px;
+}
+.ca1:hover{
+    background-color: rgba(79, 76, 76, 0.859);
+}
+
+.rigc {
+    background-color: rgba(182, 173, 173, 0.049);
+    border: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.imgpo {
+    margin: 1.5rem 0rem 1.5rem 1.5rem;
+}
+
+img {
+    border-radius: 5px;
+}
+
+p {
+    font-size: 18px;
+    font-style: bold;
+}
+
+.lin3 {
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+.rigum {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25rem;
+}
+
+.rigum1 {
+    margin: 1rem;
+
+}
+
+.lin4 {
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+    opacity: 0.5;
+    font-size: 1.5rem;
+
+}
+
+.rigum2 {
+    margin: 1rem;
+
+}
+
+.lin6 {
+    text-decoration: none;
+    color: grey;
+    opacity: 0.5;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.rigum3 {
+    padding: 5px;
+}
+
+.lin5 {
+    color:white;
+    font-weight: 70;
+    font-size: 2.3rem;
+}
+
+.lefm {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+.lefmu {
+    background-color: rgb(34, 31, 31);
+    border: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 13%;
+    border-radius: 5px;
+    margin-top: -50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 0.5rem;
+    
+}
+
+.plus1 {
+    color: grey;
+    text-decoration: none;
+    margin-left: 7rem;
+    font-size: 3rem;
+    margin-top: -0.3rem;
+}
+
+.pla {
+    text-decoration: none;
+    color: grey;
+}
+
+.lefb {
+    
+    background-color: rgb(34, 31, 31)   ;
+    border: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    border-radius: 5px;
+    margin-top: -10px;
+    margin-left: 2px;
+    width: 99.5%;
+
+}
+
+.scr {
+    background-color: rgb(62, 61, 61);
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+    margin: 20px;
+}
+#but{
+    border-radius: 15px; 
+    width: 160px; 
+    font-size: 23px; 
+    margin: 25px; 
+    margin-top: -2px; 
+    background-color: white;
+}
+#but:hover{
+    background-color:rgba(244, 236, 236, 0.842);
+}
+.lefbut{
+    background-color: rgb(34, 31, 31)   ;
+    border: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    border-radius: 5px;
+    margin-left: 2px;
+    width: 99.5%;
+}
+.lang{
+    margin: 1rem;
+    height: 55px;
+    width: 11rem;
+    border: 1px solid rgb(228, 223, 223);
+    border-radius: 10px;
+    color: white;
+    padding: 0.4rem;
+    font-size: 26px;
+    border-radius: 30px;
+}
